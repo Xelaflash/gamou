@@ -13,5 +13,6 @@ Rails
 
       get 'admin', to: 'admin/dashboard#index'
       get 'dashboard', to: 'dashboard#index'
+      get 'product', to: 'product#index'
     end
   end
